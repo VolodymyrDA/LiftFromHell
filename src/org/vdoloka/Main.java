@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int LIFT_PASSENGER_CAPACITY = 5;
         int MIN_FOOR_COUNT = 5;
-        int MAX_FLOOR_COUNT = 5;
+        int MAX_FLOOR_COUNT = 20;
         int STEPS_COUNT = 10;
         int MAX_PASSENGERS_PER_FLOOR = 10;
         Random random = new Random();
