@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Random;
 
 public class TransportService {
-    Lift lift;
-    Building building;
-    Random random = new Random();
+    private final Lift lift;
+    private final Building building;
+    private final Random random = new Random();
 
     public TransportService(Lift lift, Building building) {
         this.lift = lift;
